@@ -126,9 +126,6 @@
   opacity: 0.5;
   mix-blend-mode: hard-light;
   z-index: 1;
-}
-
-.label {
   text-shadow:
     -1px 0 var(--text-shadow-color),
     0 1px var(--text-shadow-color),
@@ -251,7 +248,7 @@ dialog::backdrop {
 }
 
 .contrast {
-  filter: contrast(160%);
+  filter: contrast(160%), blur(0.1rem);
 }
 
 .blur {

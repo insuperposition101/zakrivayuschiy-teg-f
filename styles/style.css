@@ -33,10 +33,9 @@
   justify-content: end;
   align-items: center;
   gap: 20px;
-  padding: 18px;
+  padding: 135px 18px 18px;
   margin: auto;
   width: clamp(22.1875rem, 16.0982rem + 30.4464vw, 43.5rem);
-  min-height: 38vh;
   font-family: var(--accent-font, monospace);
   text-transform: uppercase;
   background-color: var(--background-color);
@@ -234,7 +233,6 @@
 }
 
 .dialog-diskette {
-  mix-blend-mode: difference;
   width: 39px;
   height: 39px;
 }
@@ -277,7 +275,7 @@ dialog::backdrop {
   }
 
   .header {
-    min-height: 48.5vh;
+    padding: 120px 18px 18px;
   }
 
   .header__theme-menu {

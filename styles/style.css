@@ -233,6 +233,7 @@
 }
 
 .dialog-diskette {
+  mix-blend-mode: difference;
   width: 39px;
   height: 39px;
 }
